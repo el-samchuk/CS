@@ -8,7 +8,6 @@
 
 html {
 	font-size: 10px;
-	overflow-x: hidden;
 }
 
 article,
@@ -24,7 +23,8 @@ body {
 	box-sizing: border-box;
 	background-color: #fff;
 	color: #fff;
-	width: auto;
+	width: 100%;
+
 
 }
 .container-fluid {
@@ -42,17 +42,18 @@ body {
 		-o-background-size: cover;
 		-moz-background-size: cover;
 		-ms-background-size: cover;
+	
 }
 
-/*----------------about--------------------*/
+/*----------------home--------------------*/
 .home {
 	.bg();
-	background: url(../../img/banner-home.png);
+	background-image: url(../../img/banner-home.png);
 	height: 90rem;
 	font-family: 'Open Sans', sans-serif;
 
 		.logo {
-			margin: 3.4rem 0 0 3.6rem;
+			margin: 3.4rem 0 0 2.1rem;
 		}
 
 	.socials {
@@ -161,7 +162,6 @@ body {
   		-o-transform: rotate(90deg);
   		transform: rotate(90deg); 
   		float: left;
-  		border: 1px solid red;
   		height: 2.5rem;
 
   	.scroll-text {
@@ -200,18 +200,22 @@ body {
 /*---------------about------------------------------*/
 .about {
 	.bg();
-	background: url(../../img/banner-about.png);
+	background-image: url(../../img/banner-about.png);
 	height: 90rem;
 	font-family: 'Open Sans', sans-serif;
 
 		.logo {
-			margin: 3.5rem 0 0 3.5rem;
+			margin: 3.4rem 0 0 2.1rem;
 		}
 		.socials {
 		list-style-type: none;
-		margin: 3.5rem 3.5rem 0 0;
+		margin: 2.3rem 2.1rem 0 0;
 		a {
 			color: #fff;
+			/*span {
+					margin-bottom: 2rem;
+				}*/
+
 
 			&:hover {
 				color: #ff5252;
@@ -223,41 +227,40 @@ body {
 			
 			li {
 				display: inline-block;
-				padding-bottom: 2rem;
 			}
 		}
 	}
 	.plus {
-		margin-top: 22.1rem;
+		margin-top: 22rem;
 	}
-	.text-home {
+	.text-about {
 		font-family: 'Montserrat', sans-serif;
 		font-size: 1.4rem;
-		margin-top: 21.2rem;
-		line-height: 2;
+		margin-top: 21rem;
+		line-height: 2.1;
 
 		h2 {
 			font-size: 6rem;
 			margin-bottom: 3.3rem;
 		}
 	}
-
+	
 	.carousel-control {
 		background: none;
 		position: absolute;
-		top: 64rem;
+		top: 63.8rem;
 	
 		&.left {
-		left: 55.3rem;
+		left: 50.8rem;
 		}
 		&.right {
-		right: 8.9rem;
+		right: 4.6rem;
 		}
 	}
 	.carousel-title {
 		position: absolute;
 		top: 20rem;
-		right: -5rem;
+		right: -11.5rem;
 		display: inline;
 		font-size: 1.6rem;
 		color: #ff5252;
@@ -275,7 +278,7 @@ body {
   			}
 		}
 	footer {
-		margin-top: 26rem;
+		margin-top: 24rem;
 		font-size: 1.1rem;
 		padding-right: 5.5rem;
 	}
@@ -284,7 +287,7 @@ body {
 /*---------------menu---------------------*/
 .main {
 	position: relative;
-	left: 0.7rem;
+	left: 0.5rem;
 	font-family: 'Montserrat', sans-serif;
 
 	ul, li {
@@ -325,7 +328,7 @@ body {
 	width: 60rem;
 	text-align: center;
 	position: absolute;
-	top: 17.5rem;
+	top: 18rem;
 	right: 100%;
 	height: auto;
 	 -webkit-transform: rotate(270deg);
